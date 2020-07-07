@@ -247,3 +247,15 @@ WebService地址
 
 ### 返回说明
     返回字典列表，成功时根据returnProperties设置的字段属性返回XML格式数据，失败时返回ReturnMsg：failed，ErrorMsg：错误说明
+
+##用户昵称查询用户名【GetUserListByNickNames】
+
+#### 参数说明
+
+| 参数 | 类型 | 说明 |
+| --- | :--- | :--- |
+| nicknames | 字符串 | 多个用户昵称，逗号","分隔 |
+| userInfo | LoginUser | 用户信息 | 
+
+### 返回说明
+    返回字典列表，成功时用户名为Key，用户昵称为Value的字典列表，RowCount/PageCount字典，失败时返回ReturnMsg：failed，ErrorMsg：错误说明
