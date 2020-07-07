@@ -219,7 +219,7 @@ WebService地址
 ### 返回说明
     返回ReturnMsg：failed/success，ErrorMsg：错误说明，成功时ServiceTime：服务器时间
 
-##查询数据类型定义【SearchNodeType】
+## 查询数据类型定义【SearchNodeType】
 
 #### 参数说明
 
@@ -248,7 +248,7 @@ WebService地址
 ### 返回说明
     返回字典列表，成功时根据returnProperties设置的字段属性返回XML格式数据，失败时返回ReturnMsg：failed，ErrorMsg：错误说明
 
-##用户昵称查询用户名【GetUserListByNickNames】
+## 用户昵称查询用户名【GetUserListByNickNames】
 
 #### 参数说明
 
